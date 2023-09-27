@@ -1,0 +1,10 @@
+###
+POST http://localhost:8080/request
+Content-Type: application/json
+
+{
+  "request":  "https://www.google.com/"
+}
+
+###
+GET https://www.google.com/search?q=java
